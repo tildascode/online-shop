@@ -1,0 +1,35 @@
+@import '../../index';
+
+.product {
+
+  .info {
+    font-size: .75em;
+    font-weight: $fw-medium;
+    margin-top: 5px;
+    line-height: 1.1em;
+
+    @include mediaSm {
+      font-size: .95em;
+    }
+  }
+
+  .img-wrapper {
+    overflow: hidden;
+
+    .product-img {
+      transition: all .1s ease-in-out;
+      cursor: pointer;
+      width:450px;
+      height:450px;
+      object-fit: cover;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  & * {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,59 @@
+@import '../../../index.scss';
+
+.btn {
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  &.small {
+    padding: 2.5px;
+
+    @include mediaMd {
+      padding: 7px;
+    }
+  }
+
+  &.mobile {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  &.dark {
+    background: #000;
+    color: #fff;
+
+    &:disabled:hover {
+      background: #777;
+      color: #fff;
+    }
+  }
+}
+
+button:disabled {
+  &:hover {
+    color: #666;
+    background: #fff;
+    border: 1px solid #666;
+  }
+}
+.btn-primary {
+  background-color: #FD6A08;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(253,106,8,0.40);
+}
+.btn {
+  font-family: 'lato', sans-serif;
+  line-height: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 0;
+  padding: 21px 24px;
+  margin-top:  8px;
+  margin-bottom:  8px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}

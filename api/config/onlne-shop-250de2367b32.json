@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "onlne-shop",
+  "private_key_id": "250de2367b32e84ec8b2d1115eddfc501982f146",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDkZByDW/8o2QAZ\nbIY6Hj5HhOXESDHmXL1VCeVmNFFxf/nfZzYgYhSD0Q4aOrASWU6zp5WEsiFqm9Kb\n391vX7BGkm2xNgHm9wz7I4DrmvdArxviZ/5lbfzDZ0TRrY74kkYs8vUMI5zgF8ax\n3S049ctwP8qBmCqdTJGQhU2NXq3vr/ubVue+y+dwqQgwatg2f4TzNo4aURT7Kam8\nE1DCycY7/iHtzFJ/4VKB4NDeUddVU4HIhOFGEuBi9mDfcgBEVkEGdLSYnKH2QBJr\nDj3AD38tbuCe0hmubCPDfJXdHn3kzffjBl1niLPHBib4vqILLqpn9x2bDzwEzo1z\nygpkVB+tAgMBAAECggEAK1uMBC3/Uyha+fidxMPADADBQ9F206YwdUfjKlNtULA8\nZfpojp5ACcQyuq0AhwM4SyfZ3S6Z5Gy/f0Lw/Tc7tjIPK/C2TLwC1VxomZG6Nafo\nkcMvSt8l+IyOxoV92leeheL7vTm3it1IpbR45NLYs68QiSizklgaXEbKMbfTKmiw\n6o4KdCpmZAuwWDqHZJlmMbJKqsrLcGSHz0atPHtigKHEF8wYBEPlvU0cC73NlaTP\numvXhzAsaYCRVRLJifky6zK63332MKhsQFcmXpnlpcyDb2O+W10Rj4HOCeeeximi\nINm6cy/qrZVCbsPwL6K8lj22KjM34XleVVny3w4w8QKBgQD6+frsKWwwoI4Zrqgh\nYHlyaodZqdjTkL412uKR44lrekEWbY0kMajUuIccOsvC2IdouBLvZph0y5AlnyAe\nz5ZF9qVHI6fgEnylaImS3ac0aRdiR/LhvRPb1e1Z1dquLshbTfpsKdLawmyxXTcw\ns80qfJHUzKlSRLI0ptacVdJtpQKBgQDo9mbrOzttORAxbtfifGsQq3gK54PDYcyE\nZWdYNBB77OmL/QSC6w4Svpo3KEO5nQWZ21YTRIY1W+Sikn0j2bPfr+atZKR5p3ZU\nC51v4xIVIXzDPba4JCOTi1dhElosk4m3PTg8p6kSlyfJCz2N47E1KpGrXleMlliT\n4YLXlQXbaQKBgQCZGOjSKyqON0K3s+1n/tvWydkq/wr/c+o0HAPeDrkDUR5nOgjB\nLXHZ4X6537vwbfmcDb2vQBx8Erkp2fnUEbmPkDeeP8fmTiCvHifd6UxYEktrboxg\n2+BDWCpjhKrTWkJqQBUk6hZvz+5R+5TxJp1e74JeF0KqprE2oReFYmzs6QKBgEaE\nf7bo4R44zbwI73RxcP9EyDuUxP/ZlMzm3ReH+w1oM3HajwkKGeJ2q7vShl2jOFTQ\nXgfLEE0KmfTUHulBNv+ZAVyvQFJK7LiYI3oA5DJdRqTbA3pOBi7dWP/bTEx+BIvh\nDireHYGxG6vxqRpQOA396sZS8nFt+TYaZz7Wr0UxAoGAKq+2183+6jEOoWLBqXBN\nIh9i81sRbBN9s+4cHLVYwNHMYnWXAcSnHnJ4nlvM9u+iIigbHCm4UyTTurN2/+0M\naJE72z+00eN0jQOyWzBBDNaiEQOgZjGUY3MGWZ2oAGVTR7K20E0EXDuHGbiA52N3\nFdTeL3CGIkTInlfM8vs5FGk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "online-shop-storage@onlne-shop.iam.gserviceaccount.com",
+  "client_id": "116391445159147850555",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/online-shop-storage%40onlne-shop.iam.gserviceaccount.com"
+}

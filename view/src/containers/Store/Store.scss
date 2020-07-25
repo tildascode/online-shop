@@ -1,0 +1,17 @@
+@import '../../index.scss';
+
+.store-wrapper {
+  display: inline-block;
+  margin-top:20px;
+  width: fit-content;
+}
+
+.store-container {
+  display: flex;
+  text-align: center;
+  padding:20px;
+}
+
+.store-products {
+  padding-top: 2%;
+}

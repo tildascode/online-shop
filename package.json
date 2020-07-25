@@ -1,0 +1,21 @@
+{
+  "name": "online_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd api && nodemon index.js\" \"cd view && npm start\"",
+    "start": "cd api && node index.js",
+    "i": "concurrently \"npm install\" \"cd api && npm install\" \"cd view && npm install\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.2.0",
+    "multer": "^1.4.2",
+    "node-sass": "^4.14.1"
+  }
+}

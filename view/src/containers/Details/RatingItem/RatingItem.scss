@@ -1,0 +1,114 @@
+.ratings {
+  padding: 0 .5em;
+  width: 50%;
+}
+
+.rating-stars {
+  height: 46px;
+  width: fit-content;
+  float: left;
+}
+
+.rating-stars-form {
+  display: inline-grid;
+  width: 100%;
+}
+
+.rating-stars:not(:checked) > input {
+  display: none;
+}
+
+.rating-stars:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rating-stars:not(:checked) > label:before {
+  content: '★ ';
+}
+
+.rating-stars > input:checked ~ label {
+  color: #ffc700;
+}
+
+.rating-stars:not(:checked) > label:hover,
+.rating-stars:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+.rating-stars > input:checked + label:hover,
+.rating-stars > input:checked + label:hover ~ label,
+.rating-stars > input:checked ~ label:hover,
+.rating-stars > input:checked ~ label:hover ~ label,
+.rating-stars > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.user_avatar {
+  width: 65px;
+  height: 65px;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+
+.comment_block {
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+
+}
+
+.comment_toolbar {
+  width: 100%;
+}
+
+.comment_toolbar ul {
+  list-style-type: none;
+  padding-left: 75px;
+  font-size: 0;
+}
+
+.comment_toolbar li {
+  display: inline-block;
+  padding: 5px;
+  font-size: .7rem;
+}
+
+
+.comment_toolbar .comment_details {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  text-align: left;
+}
+
+.comment_body {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 75px);
+  min-height: 65px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: .9rem;
+  color: #555;
+  border-bottom: 2px solid;
+}
+
+.rated label {
+  color: #ffc700 !important;
+}
+.rated{
+  float: right !important;
+}
